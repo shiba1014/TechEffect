@@ -8,6 +8,29 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <CoreImage/CoreImage.h> //CoreImage.flameの導入
+
+@interface ViewController : UIViewController{
+    
+    UIImage *originImage; //処理前の画像
+    
+    CIImage *filteredImage; //処理中の画像
+    
+    UIImage *outputImage; //処理後の画像
+    
+    IBOutlet UIImageView *imageView; //画像を表示するためのImageView
+    
+    IBOutlet UISlider *slider; //フィルタの強度を調整するためのSlider
+    
+    IBOutlet UILabel *label; //Sliderの値を表示するためのLabel
+}
+
+-(IBAction)convertImage; //画像を処理するメソッド
+
+-(IBAction)undone; //元に戻すメソッド
+
+-(IBAction)valueChanged;
+
+-(IBAction)showCameraSheet;
 
 @end

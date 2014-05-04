@@ -21,6 +21,8 @@
 		4E70A4861915BC0300B2AB91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E70A4681915BC0200B2AB91 /* UIKit.framework */; };
 		4E70A48E1915BC0300B2AB91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E70A48C1915BC0300B2AB91 /* InfoPlist.strings */; };
 		4E70A4901915BC0300B2AB91 /* TechEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E70A48F1915BC0300B2AB91 /* TechEffectTests.m */; };
+		4E70A49A1915BC4300B2AB91 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E70A4991915BC4300B2AB91 /* CoreImage.framework */; };
+		4E70A4AA1915CCC300B2AB91 /* photoshiba.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E70A4A91915CCC300B2AB91 /* photoshiba.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		4E70A48B1915BC0300B2AB91 /* TechEffectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TechEffectTests-Info.plist"; sourceTree = "<group>"; };
 		4E70A48D1915BC0300B2AB91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E70A48F1915BC0300B2AB91 /* TechEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TechEffectTests.m; sourceTree = "<group>"; };
+		4E70A4991915BC4300B2AB91 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4E70A4A91915CCC300B2AB91 /* photoshiba.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photoshiba.png; path = ../../../Documents/photoshiba.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E70A49A1915BC4300B2AB91 /* CoreImage.framework in Frameworks */,
 				4E70A4671915BC0200B2AB91 /* CoreGraphics.framework in Frameworks */,
 				4E70A4691915BC0200B2AB91 /* UIKit.framework in Frameworks */,
 				4E70A4651915BC0200B2AB91 /* Foundation.framework in Frameworks */,
@@ -82,6 +87,7 @@
 		4E70A4581915BC0200B2AB91 = {
 			isa = PBXGroup;
 			children = (
+				4E70A4A91915CCC300B2AB91 /* photoshiba.png */,
 				4E70A46A1915BC0200B2AB91 /* TechEffect */,
 				4E70A4891915BC0300B2AB91 /* TechEffectTests */,
 				4E70A4631915BC0200B2AB91 /* Frameworks */,
@@ -101,6 +107,7 @@
 		4E70A4631915BC0200B2AB91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E70A4991915BC4300B2AB91 /* CoreImage.framework */,
 				4E70A4641915BC0200B2AB91 /* Foundation.framework */,
 				4E70A4661915BC0200B2AB91 /* CoreGraphics.framework */,
 				4E70A4681915BC0200B2AB91 /* UIKit.framework */,
@@ -230,6 +237,7 @@
 			files = (
 				4E70A47D1915BC0200B2AB91 /* Images.xcassets in Resources */,
 				4E70A46F1915BC0200B2AB91 /* InfoPlist.strings in Resources */,
+				4E70A4AA1915CCC300B2AB91 /* photoshiba.png in Resources */,
 				4E70A4781915BC0200B2AB91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
